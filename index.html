@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Landing Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+		<link href="vendors/css/normalize.css" rel="stylesheet" type="text/css" />
+		<link href="vendors/css/unsemantic-grid-responsive.css" rel="stylesheet" type="text/css" />
+		<link href="vendors/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+		<link href="resources/css/main.css" rel="stylesheet" type="text/css" />
+		<link href="resources/css/responsive.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Cormorant:300,400,500,600,700&display=swap&subset=latin-ext" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="pageWrapper">
+			<div id="launchPadSection">
+				<div class="grid-container contentBoxLarge">
+					<div class="grid-50 tablet-grid-50 mobile-grid-100">
+						<div id="heroImage"><img src="resources/images/mobile-mockup.png" class="fluidImage" /></div>
+					</div>
+					<div class="grid-50 tablet-grid-50 mobile-grid-100">
+						<h1>FOOLPROOF
+							MOCKTAIL RECIPES
+							<span>THAT WILL IMPRESS
+							YOUR GUESTS.</span>
+						</h1>
+						<p>Don't stress about your next gathering or break the bank buying top-shelf. I've come up with 10 simple mocktail recipes you can whip up in a hurry with what you already have at home.</p>
+						<button type="button" id="downloadBtn" class="btn btn-call-to-action">DOWNLOAD</button>
+					</div>
+				</div>
+			</div>
+			<div id="modalSection">
+				<div id="modal">
+					<span id="closeBtn">&times;</span>
+					<div id="modalContent">
+						<h1>WHERE SHOULD I SEND THE RECIPES?</h1>
+						<form id="modalForm" action="#" method="POST" encType="#">
+							<div class="formElements">
+								<input type="email" name="_replyto" id="email" placeholder="Email" required/>
+							</div>
+							<div class="formElements">
+								<input type="text" name="name" id="name" placeholder="First Name" required/>
+							</div>
+							<button type="submit" id="submitBtn" class="btn btn-primary"><i class="ion-ios-send"></i>Send Me The Recipes</button>
+						</form>
+						<p>Privacy Policy: We hate spam and promise to keep your email address safe</p>
+					</div>
+				</div>
+			</div>
+			<div id="footer" class="contentBoxSmall">
+				<div class="grid-container">
+					<div class="grid-50 tablet-grid-50 mobile-grid-100 rightAligned">
+						<p class="footerText">
+							Copyright &copy;
+							<script type="text/javascript">
+								document.write(new Date().getFullYear());
+							</script> &#8226; YourCompany &#8226; All Rights Reserved
+						</p>
+					</div>
+					<div class="grid-50 tablet-grid-50 mobile-grid-100 leftAligned">
+						<p class="footerText">Designed by YourDesigner</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="resources/js/main.js"></script>
+	</body>
+</html>

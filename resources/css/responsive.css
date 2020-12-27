@@ -1,0 +1,51 @@
+/* Extra Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) and (max-width: 1299px) {}
+
+
+/* Large Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Medium Devices (Portrait Tablets & Small Desktops) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #pageWrapper #launchPadSection {
+        padding: 0 1.5%;
+    }
+}
+
+@media(min-width:320px) and (max-width:479px){
+    .contentBoxMedium{
+        padding:55px 0 125px 0
+    }
+    .btn {
+        width: 100%;
+    }
+    #pageWrapper #launchPadSection {
+        padding: 0 1.0%;
+    }
+    #launchPadSection h1 {
+        text-align: center;
+        font-size: 31px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    #launchPadSection p {
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    #footer .footerText{
+        font-size:11px;
+        line-height:22px
+    }
+    #footer .rightAligned{
+        text-align:center
+    }
+    #footer .leftAligned{
+        text-align:center
+    }
+}
+ 
